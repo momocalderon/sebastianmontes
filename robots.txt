@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+User-agent: GoogleBot
+Allow: /
+
+User-agent: GoogleBot-Mobile
+Allow: /
+
+User-agent: GoogleBot-Image
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: twiceler
+Allow: /
+
+User-agent: yeti
+Allow: /
+
+User-agent: Robozilla
+Allow: /
+
+User-agent: baiduspider
+Allow: /
+
+User-agent: naverbot
+Allow: /
+
+Sitemap: sebastian-montes.com/sitemap.xml
