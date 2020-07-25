@@ -25,7 +25,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #000000;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color:#5e5e5e;
   text-decoration: underline;
 }
 
@@ -177,7 +177,9 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+ /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+  font-family: 'Lora', serif;
+  
   font-size: 1em;
 }
 
@@ -500,7 +502,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #000000;
   word-wrap: break-word;
 }
 
@@ -2598,7 +2600,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #eec94d;
   background-color: #0062cc;
   border-color: #005cbf;
 }
@@ -6797,7 +6799,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #eec94d !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -8558,6 +8560,8 @@ button.bg-dark:focus {
 .mt-auto,
 .my-auto {
   margin-top: auto !important;
+  margin-top: auto;
+margin-bottom: auto;
 }
 
 .mr-auto,
@@ -9968,8 +9972,15 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  /*font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;*/
+  font-family: 'Sora', sans-serif;
 }
+
+.text-monospace1 {
+  /*font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;*/
+  font-family: 'Raleway Dots', cursive;
+}
+
 
 .text-justify {
   text-align: justify !important;
