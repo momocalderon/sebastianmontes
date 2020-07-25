@@ -167,7 +167,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-content {
-    background: #fff;
+    background: #eec94d;
     display: inline-block;
     margin: 0;
     max-width: 100%;
@@ -262,11 +262,11 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-slide--map .fancybox-content {
-    background: #e5e3df;
+    background: #eec94d;
 }
 
 .fancybox-slide--iframe .fancybox-content {
-    background: #fff;
+    background: #eec94d;
 }
 
 .fancybox-video,
@@ -377,7 +377,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-progress {
-    background: #ff5268;
+    background: #eec94d;
     height: 2px;
     left: 0;
     position: absolute;
@@ -653,7 +653,7 @@ body.compensate-for-scrollbar {
 
     .fancybox-slide--image .fancybox-close-small {
         background: #4e4e4e;
-        color: #f2f4f6;
+        color: #eec94d;
         height: 36px;
         opacity: 1;
         padding: 6px;
@@ -776,7 +776,7 @@ body.compensate-for-scrollbar {
 /* Thumbs */
 
 .fancybox-thumbs {
-    background: #ddd;
+    background: #eec94d;
     bottom: 0;
     display: none;
     margin: 0;
@@ -827,7 +827,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar-track {
-    background: #fff;
+    background: #eec94d
     border-radius: 10px;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 }
@@ -859,7 +859,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-thumbs__list a::before {
-    border: 6px solid #ff5268;
+    border: 6px solid #eec94d;
     bottom: 0;
     content: '';
     left: 0;
